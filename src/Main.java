@@ -13,8 +13,8 @@ class Main {
         // } else {
         //     bonus = 0;
         // }
-        
-        int bonus = sumReplenishment > 1001 ? sumReplenishment / 100 : 0;
+
+        int bonus = sumReplenishment >= 1001 ? sumReplenishment / 100 : 0;
 
         int balance = sumReplenishment + startingScore + bonus;
 
